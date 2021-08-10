@@ -14,7 +14,7 @@ const onSubmit = (e) => {
         return
     }
 
-    onAdd({ text,day, reminder })
+    onAdd({ text, day, reminder })
 
     setText('')
     setDay('')
