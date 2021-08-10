@@ -9,14 +9,14 @@
     {
       "id": 2,
       "text": "Meeting Web team",
-      "day":  "July 12th at 12:30pm",
+      "day": "July 12th at 12:30pm",
       "reminder": true
     },
     {
-      "id": 3,
-      "text": "Food Shopping",
-      "day": "Aug 1st at 09:30am",
-      "reminder": false
+      "text": "take test",
+      "day": "mon",
+      "reminder": false,
+      "id": 3
     }
-  ] 
+  ]
 }
