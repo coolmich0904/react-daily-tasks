@@ -11,12 +11,6 @@
       "text": "Meeting Web team",
       "day": "July 12th at 12:30pm",
       "reminder": true
-    },
-    {
-      "text": "take test",
-      "day": "mon",
-      "reminder": false,
-      "id": 3
     }
   ]
 }
