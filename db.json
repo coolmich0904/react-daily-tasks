@@ -11,6 +11,18 @@
       "text": "Meeting Web team",
       "day": "July 12th at 12:30pm",
       "reminder": true
+    },
+    {
+      "text": "Task",
+      "day": "Day",
+      "reminder": true,
+      "id": 3
+    },
+    {
+      "text": "Reading File 2",
+      "day": "0900",
+      "reminder": false,
+      "id": 4
     }
   ]
 }

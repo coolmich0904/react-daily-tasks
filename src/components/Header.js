@@ -17,7 +17,7 @@ const Header = ({title, onAdd, showAdd}) => {
 }
 
 Header.defaultProps = {
-    title: 'Task Tracker',
+    title: 'My Daily Tasks',
 }
 
 Header.propTypes = {
