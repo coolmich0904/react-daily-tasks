@@ -110,8 +110,7 @@ return (
               'No Tasks To Show'
             )}
         
-        )}
-      />
+     
       <Route path='/about' component={About} />
       <Footer />
     </div>
