@@ -11,6 +11,7 @@ const App = () => {
   const[showAddTask, setShowAddTask] = useState(false)
   const [tasks, setTasks] = useState ([])
 
+<<<<<<< HEAD
   useEffect(()=> {    
     const getTasks = async () => {
       const tasksFromServer = await fetchTasks()
@@ -56,6 +57,8 @@ const addTask= async (task) => {
   // setTasks([...tasks, newTask])
 }
 
+=======
+>>>>>>> parent of a2c214d ('add task')
 // Delete Task
 const deleteTask = async (id) => {
   const res = await fetch(`http://localhost:5000/tasks/${id}`, {
@@ -94,6 +97,7 @@ const toggleReminder = async (id) =>{
 return (
   <Router>
     <div className='container'>
+<<<<<<< HEAD
       <Header
         onAdd={() => setShowAddTask(!showAddTask)}
         showAdd={showAddTask}
@@ -116,6 +120,17 @@ return (
     </div>
   </Router>
 )
+=======
+      <Header />
+      <AddTasks/>
+      {tasks.length > 0 ? (
+      <Tasks tasks={ tasks } onDelete={deleteTask} onToggle={toggleReninder} /> 
+      ) : (
+        'No Tasks to show'
+      )}
+    </div>    
+  )
+>>>>>>> parent of a2c214d ('add task')
 }
 
 export default App

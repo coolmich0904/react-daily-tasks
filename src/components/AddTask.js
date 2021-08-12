@@ -1,11 +1,12 @@
 import {useState} from 'react'
 
-const AddTask = ({onAdd}) => {
+const AddTask = () => {
     const[text, setText] = useState('')
     const[day, setDay] = useState('')
     const[reminder, setReminder] = useState(false)
 
 
+<<<<<<< HEAD
 const onSubmit = (e) => {
     e.preventDefault()
 
@@ -22,8 +23,10 @@ const onSubmit = (e) => {
 
 }
 
+=======
+>>>>>>> parent of a2c214d ('add task')
     return (
-        <form className='add-form' onSubmit={onSubmit}>
+        <form className='add-form'>
             <div className='form-control'>
                 <label>Task</label>
                 <input 
